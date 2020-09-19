@@ -1,7 +1,9 @@
 
 
 .body{
-    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/jamesmoorewebdev1150programfiles/Elevenfiftyprojects/app1/1-Hw1.Html/greenmon/demon.JPG')
 }
 
 
@@ -43,10 +45,7 @@
     flex-basis: 27%;
 }
 
-.box-1 {
-    position: relative;
-    width: auto;
-}
+
 
 .horizontal-menu ul {
     margin: 10;
@@ -61,14 +60,14 @@
     background-color: #0018c3;
 }
 .horizontal-menu .active {
-	background-color: slategray;
+	background-color: transparent;
     color: crimson;
 }
 .horizontal-menu ul {
     margin: 10;
     padding: 15;
     overflow: hidden;
-    background-color: slategray;
+    background-color: transparent;
 }
 .horizontal-menu li {
     float: left;
@@ -88,7 +87,7 @@
 }
 
 body{
-    background-color: slategray;
+    background-color: transparent;
 }
 
 background-color{
@@ -97,20 +96,40 @@ background-color{
 
 footer{
     background-color: slategrey;
+    
 }
 
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    border: blanchedalmond 17%;
+    background-color: crimson;
+    border: black 10px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 600px;
+    height: 55px;
 }
-
 p{
-    background-color: snow;
-    box-shadow: black;
+    background-color: crimson;
+    border: black 10px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 170px;
+    height: 30px;
+
 }
 
 h4{
     background-color: crimson;
     border: black 10px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 70px;
+    height: 30px;
+}
+h2{
+    background-color: crimson;
+    border: black 10px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 1300px;
+    height: 75px;
 }
